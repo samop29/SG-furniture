@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"
+      defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div data-scroll-container="" class="parent">
+      <div id="loder">
+        <img src="assets/loder.gif" alt="" />
+      </div>
+      <section class="page1" data-scroll-section="">
+        <nav>
+          <div class="nav-img">
+            <img
+              src="assets/Screenshot_2024-04-01_110250-removebg-preview.png"
+              alt="" />
+          </div>
+          <div class="nav-tags">
+            <a href="" class="tags1">Home</a>
+            <a href="" class="tags2">About Us</a>
+            <a href="" class="tags3">Services</a>
+            <a href="" class="tags4">Blog</a>
+            <a href="" class="tags5">Contact Us</a>
+            <div class="nav-icons">
+              <i class="ri-user-line"></i>
+              <i class="ri-shopping-cart-line"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="hero-page" data-scroll="">
+          <div class="hero-page-box1 box">
+            <p class="hero-heading">modern interior design studio</p>
+            <p class="hero-discription">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              quas quidem quod dolorem ut eos iure perferendis ex. Lorem ipsum
+              dolor sit.
+            </p>
+            <p class="hero-button">
+              <button class="b1">Shop Now</button>
+              <button class="b2" id="b2">Explore</button>
+            </p>
+          </div>
+
+          <div class="hero-page-box2 box">
+            <div class="dots">
+              <h1>
+                .................................................................................
+              </h1>
+            </div>
+            <div class="hero-img">
+              <img id="image" src="assets/sofa (1).webp" alt="" />
+              <div class="display-buttons">
+                <div class="display1" id="display1"></div>
+                <div class="display2" id="display2"></div>
+                <div class="display3" id="display3"></div>
+                <div class="display4" id="display4"></div>
+                <div class="display5" id="display5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page2">
+        <div class="chair-box1 chair-box">
+          <div class="chair-heading">Crafted with excellent materials.</div>
+          <p class="chair-pera">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            fugiat tenetur placeat quasi corporis nam itaque iusto repellat!
+          </p>
+          <button id="button">Explore</button>
+        </div>
+        <div class="chair-box2 chair-box">
+          <div class="chair-img">
+            <img src="assets/chair (1).webp" alt="" />
+          </div>
+          <div class="chair-img-price">
+            <p class="abt-price">Nordic Chair</p>
+            <p class="price">$100000</p>
+            <i class="ri-add-circle-fill" id="imi"></i>
+            <div class="talkbubble" id="talkbubble">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est odio
+              dicta odit possimus vel, quo ad molestiae ut nostrum?
+            </div>
+          </div>
+          <div class="layer" id="layer"></div>
+        </div>
+        <div class="chair-box3 chair-box">
+          <div class="chair-img">
+            <img src="assets/chair (2).webp" alt="" />
+          </div>
+          <div class="chair-img-price">
+            <p class="abt-price">Nerd Chair</p>
+            <p class="price">$70000</p>
+            <i class="ri-add-circle-fill" id="imi2"></i>
+            <div class="talkbubble" id="talkbubble2">
+              Lorem ipsum, dolor sit amet adipisicing elit. Est odio dicta odit
+              voluptatum possimus vel, quo ad molestiae ut nostrum?
+            </div>
+          </div>
+          <div class="layer" id="layer"></div>
+        </div>
+        <div class="chair-box4 chair-box">
+          <div class="chair-img">
+            <img src="assets/chair (3).webp" alt="" />
+          </div>
+          <div class="chair-img-price">
+            <p class="abt-price">blah Chair</p>
+            <p class="price">$129000</p>
+            <i class="ri-add-circle-fill" id="imi3"></i>
+            <div class="talkbubble" id="talkbubble3">
+              Lorem ipsum, dolor sit amet consectetur elit. Est odio dicta odit
+              voluptatum possimus vel, quo ad molestiae ut nostrum?
+            </div>
+          </div>
+          <div class="layer" id="layer"></div>
+        </div>
+      </section>
+      <section class="page2720">
+        <div class="page2720-heading">
+          <div class="chair-heading chair-heading720">
+            Crafted with excellent materials.
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            fugiat tenetur placeat quasi corporis nam itaque iusto repellat!
+          </p>
+          <button>Explore</button>
+        </div>
+        <div class="chair-box720">
+          <div class="chair-box1720" id="chair-box">
+            <div id="chair-img">
+              <img src="assets/chair (1).webp" alt="" />
+            </div>
+            <div id="chair-caption"><span>Nordic Chair</span></div>
+            <div id="chair-price"><span>$100000</span></div>
+          </div>
+          <div class="chair-box2720" id="chair-box">
+            <div id="chair-img">
+              <img src="assets/chair (2).webp" alt="" />
+            </div>
+            <div id="chair-caption"><span>Nerd Chair</span></div>
+            <div id="chair-price"><span>$70000</span></div>
+          </div>
+          <div class="chair-box3720" id="chair-box">
+            <div id="chair-img">
+              <img src="assets/chair (3).webp" alt="" />
+            </div>
+            <div id="chair-caption"><span>blah Chair</span></div>
+            <div id="chair-price"><span>$129000</span></div>
+          </div>
+          <div class="chair-box4720" id="chair-box">
+            <div id="chair-img">
+              <img src="assets/chair (4).webp" alt="" />
+            </div>
+            <div id="chair-caption"><span>seduc Chair</span></div>
+            <div id="chair-price"><span>$99000</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page3">
+        <div class="page3-box2" id="page3-box">
+          <div class="page3-box2-heading">
+            <span class="imspan">Why Choose Us</span>
+            <p class="imp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum a est ut voluptatem delectus, fugit repudiandae quas cum?
+            </p>
+          </div>
+          <div class="page3-content-box">
+            <div class="page3-content-box1" id="page3-content-box">
+              <div class="page3-icon">
+                <div class="circle"></div>
+                <i class="ri-truck-line"></i>
+              </div>
+              <div class="page3-heading">Fast & free Shipping</div>
+              <div class="page3-caption">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                pariatur vitae repellat . reprehenderit laudantium porro
+                corporis possimus.
+              </div>
+            </div>
+
+            <div class="page3-content-box2" id="page3-content-box">
+              <div class="page3-icon">
+                <div class="circle"></div>
+                <i class="ri-shopping-bag-line"></i>
+              </div>
+              <div class="page3-heading">Easy to Shoap</div>
+              <div class="page3-caption">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                pariatur vitae repellat . reprehenderit laudantium porro
+                possimus.
+              </div>
+            </div>
+
+            <div class="page3-content-box3" id="page3-content-box">
+              <div class="page3-icon">
+                <div class="circle"></div>
+                <i class="ri-lifebuoy-line"></i>
+              </div>
+              <div class="page3-heading">24/7 Support</div>
+              <div class="page3-caption">
+                Lorem ipsum dolortur adipisicing Maxime pariatur vitae repellat
+                . reprehenderit laudantium porro id eligendi veniam ullam
+                corporis possimus.
+              </div>
+            </div>
+
+            <div class="page3-content-box4" id="page3-content-box">
+              <div class="page3-icon">
+                <div class="circle"></div>
+                <i class="ri-repeat-line"></i>
+              </div>
+              <div class="page3-heading">Hassle Free Return</div>
+              <div class="page3-caption">
+                Lorem sit amet consectetur adipisicing elit. Maxime pariatur
+                vitae repellat . reprehenderit laudantium eligendi veniam ullam
+                corporis possimus.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page3-box1" id="page3-box">
+          <div class="dots" id="dot">
+            <h1>
+              .................................................................................
+            </h1>
+          </div>
+          <img src="assets/page3head.webp" alt="" />
+        </div>
+      </section>
+
+      <section class="page4">
+        <div class="page4-box1" id="page4-box">
+          <div class="dots" id="dot4">
+            <h1>
+              ................................................................
+            </h1>
+          </div>
+          <div class="page4-child1" id="page4-child">
+            <img src="assets/page4 (3).webp" alt="" />
+          </div>
+          <div class="page4-child2" id="page4-child">
+            <img src="assets/page4 (1).webp" alt="" />
+          </div>
+          <div class="page4-child3" id="page4-child">
+            <img src="assets/page4 (2).webp" alt="" />
+          </div>
+        </div>
+        <div class="page4-box2" id="page4-box">
+          <span>we help you make modern interior design </span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            quis dolor laudantium quaerat voluptatibus necessitatibus
+            repudiandae vero velit rem at! Facere numquam impedit velit
+            assumenda tempora quaerat, sunt quisquam eligendi! Lorem ipsum dolor
+            sit amet.
+          </p>
+          <div class="bullets">
+            <ul>
+              <li id="li" class="li">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </li>
+              <li class="li">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </li>
+              <li id="li">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </li>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+            </ul>
+          </div>
+          <button id="button" class="page4-button">Explore</button>
+        </div>
+      </section>
+
+      <footer>
+        <img src="assets/clock.webp" alt="" />
+        <img src="assets/footer-sofa.webp" alt="" />
+        <div class="footer-box">
+          <span>Hire Us You Will Regret!!!</span>
+          <div class="footer-icon">
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-mail-line"></i>
+            <i class="ri-twitter-x-line"></i>
+          </div>
+          <p>© 2023 All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
