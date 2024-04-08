@@ -119,7 +119,7 @@ function heroHeading (){
         }
     })
     gsap.from(".imspan,.imp",{
-        left:-450,
+        left:-550,
         duration:0.4,
         delay:1,
         scrollTrigger:{
